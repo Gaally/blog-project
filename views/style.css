@@ -60,6 +60,7 @@ nav {
 
 .column h3 {
 	font-size: 40px;
+	padding-bottom: 1.5rem;
 }
 
 .form-group {
@@ -70,16 +71,19 @@ nav {
 #title-value {
 	width: 200%;
 	height: auto;
+	margin-bottom: 1rem;
 }
 
 #body-value {
 	width: 200%;
 	height: 20vh;
+	margin-bottom: 1rem;
 }
 
 #author-value {
 	width: 200%;
 	height: auto;
+	margin-bottom: 1rem;
 }
 
 .posts-list {
@@ -104,6 +108,7 @@ nav {
 .post-body h6 {
 	font-size: 10px;
 	color: #d3d4d9;
+	padding-bottom: 2rem;
 }
 
 .post-link {
