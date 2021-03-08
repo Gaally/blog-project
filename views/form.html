@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Blog - Formulaire</title>
+</head>
+<body>
+    <header>
+        <div class="titre">Blog</div>
+        <nav><div class="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="form.html">Ajouter un article</a>
+        </div></nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h3>Ajouter un article</h3>
+                <form class="add-post-form">
+                    <div class="form-group">
+                        <label for="title">Titre de l'article</label>
+                        <input type="text" class="form-control" id="title-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="body">Contenu</label>
+                        <textarea class="form-control" id="body-value"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="author">Écrit par</label>
+                        <textarea class="form-control" id="author-value"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="form.js"></script>
+</body>
+<footer>
+    <p>Projet par <a href="https://github.com/Gaally">Tiphaine Le Priol</a></p>
+</footer>
+</html>
