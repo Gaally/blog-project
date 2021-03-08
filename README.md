@@ -20,5 +20,5 @@ $ git clone https://github.com/Gaally/blog-project.git && cd blog-project
 
 3. Create a mongoDB database and link it
 ```bash 
-MONGO_URL = YOUR_MONGO_URL - don't forget to create a user
+MONGO_URL = YOUR_MONGO_URL - don\'t forget to create a user
 ```
